@@ -1,5 +1,9 @@
 /* Global */
 
+html {
+  scroll-behavior: smooth;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
 * {
@@ -52,6 +56,11 @@ img {
   position: fixed;
   top: 0;
   padding: 0 30px;
+  transition: 0.5s;
+}
+
+.navbar.top {
+  background: transparent;
 }
 
 .navbar .logo {
